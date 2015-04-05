@@ -4,8 +4,8 @@
 
 - [Phaser][phaser] - game engine [__Client__]
 - [jQuery][jquery] - dom [__Client__]
-- [Backbone][backbone] - to manipulate models
-- [Underscore][underscore] - some logic for models 
+- [Backbone][backbone] - to manipulate models [__Client__]
+- [Underscore][underscore] - some logic for models [__Client__]  
 - [Browserify][browserify] - emulate require [__Gulp/Sh__]
 - [EJS][ejs] - server templating [__Server__]
 - [Sass][sass]: scss syntax* [__Server/Local__]
