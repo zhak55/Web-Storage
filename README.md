@@ -4,7 +4,7 @@
 
 - [Phaser][phaser]
 - [Browserify][browserify]
-- [Jade][jade]
+- [EJS][ejs]
 - [Stylus][stylus]
 - [ESLint][eslint]: keep your code clean
 - [BrowserSync][browser-sync]: a local web server to test your code
@@ -60,6 +60,12 @@ To list all the available options, you can use ```gulp -h```.
 ├── assets                        # Assets folder: images are at the root...
 |   ├── audio                     # ... audio and music files are here...
 |   └── fonts                     # ... while fonts go there.
+|   └── sprites
+|   |   ├── json 
+|   |   ├── sprites 
+|   └── maps[backgrounds]
+|   └── levels
+|   └── ui
 ├── build                         # Generated folder.
 |   ├── assets
 |   ├── css
@@ -92,12 +98,11 @@ To list all the available options, you can use ```gulp -h```.
 └── package.json
 ```
 ---
-
 [browser-sync]: http://www.browsersync.io/
 [browserify]: http://browserify.org/
 [codevinsky-tutorial]: http://www.codevinsky.com/phaser-2-0-tutorial-flappy-bird-part-1/
 [eslint]: http://www.eslint.org/
-[jade]: http://jade-lang.com/
+[ejs]: http://www.embeddedjs.com/
 [gulp]: http://gulpjs.com/
 [node]: http://nodejs.org/
 [phaser]: http://phaser.io/
