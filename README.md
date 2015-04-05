@@ -65,7 +65,7 @@ folder you'll use when publishing your game.
 
 To list all the available options, you can use ```gulp -h```.
 
-## The structure if IW
+## The structure of IW
 
 ```
 ├── server                        # Here is located server logic 
