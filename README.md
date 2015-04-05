@@ -5,7 +5,8 @@
 - [Phaser][phaser]
 - [Browserify][browserify]
 - [EJS][ejs]
-- [Stylus][stylus]
+- [Sass][sass]: scss syntax
+- [MongoDB][mongo]
 - [ESLint][eslint]: keep your code clean
 - [BrowserSync][browser-sync]: a local web server to test your code
 
@@ -57,6 +58,7 @@ To list all the available options, you can use ```gulp -h```.
 ## The structure if IW
 
 ```
+├── server                        # Here is located server logic 
 ├── assets                        # Assets folder: images are at the root...
 |   ├── audio                     # ... audio and music files are here...
 |   └── fonts                     # ... while fonts go there.
@@ -106,5 +108,6 @@ To list all the available options, you can use ```gulp -h```.
 [gulp]: http://gulpjs.com/
 [node]: http://nodejs.org/
 [phaser]: http://phaser.io/
-[stylus]: http://learnboost.github.io/stylus/
+[mongo]: https://www.mongodb.org/
+[sass]: http://sass-lang.com/
 [slush]: http://slushjs.github.io/
