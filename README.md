@@ -95,7 +95,6 @@ To list all the available options, you can use ```gulp -h```.
 
 [browser-sync]: http://www.browsersync.io/
 [browserify]: http://browserify.org/
-// Some info about structure
 [codevinsky-tutorial]: http://www.codevinsky.com/phaser-2-0-tutorial-flappy-bird-part-1/
 [eslint]: http://www.eslint.org/
 [jade]: http://jade-lang.com/
