@@ -10,7 +10,7 @@
 - [MongoDB][mongo] - DB
 - [Koala][koala]: In order to compile scss & compass locally 
 - [Mongoose][goose]: ODM for mongoDB
-- [Express][express]: simplify work woth node.js
+- [Express][express]: simplify work with node.js
 - [Socket.io][socket]: real-time engine
 - [Gulp][gulp]: the streaming build system
 - [ESLint][eslint]: keep your code clean
