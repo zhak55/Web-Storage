@@ -2,20 +2,20 @@
 
 # Features
 
-- [Phaser][phaser] - game engine [Client]
-- [jQuery][jquery] - dom [Client]
-- [Browserify][browserify] - emulate require [Gulp/Sh]
-- [EJS][ejs] - server templating [Server]
-- [Sass][sass]: scss syntax* [Server/Local]
-- [Compass][compass]: * [Server/Local]
-- [MongoDB][mongo] - DB [Server]
-- [Koala][koala]: In order to compile scss & compass locally [Local]
-- [Mongoose][goose]: ODM for mongoDB [Server]
-- [Express][express]: simplify work with node.js [Server]
-- [Socket.io][socket]: real-time engine [Server & Client]
-- [Gulp][gulp]: the streaming build system [Server]
-- [ESLint][eslint]: keep your code clean [Server]
-- [BrowserSync][browser-sync]: a local web server to test your code [Server]
+- [Phaser][phaser] - game engine [__Client__]
+- [jQuery][jquery] - dom [__Client__]
+- [Browserify][browserify] - emulate require [__Gulp/Sh__]
+- [EJS][ejs] - server templating [__Server__]
+- [Sass][sass]: scss syntax* [__Server/Local__]
+- [Compass][compass]: * [__Server/Local__]
+- [MongoDB][mongo] - DB [__Server__]
+- [Koala][koala]: In order to compile scss & compass locally [__Local__]
+- [Mongoose][goose]: ODM for mongoDB [__Server__]
+- [Express][express]: simplify work with node.js [__Server__]
+- [Socket.io][socket]: real-time engine [__Server & Client__]
+- [Gulp][gulp]: the streaming build system [__Server__]
+- [ESLint][eslint]: keep your code clean [__Server__]
+- [BrowserSync][browser-sync]: a local web server to test your code [__Server__]
 
 _* Compass & Scss files can be compiled with Koala <br>
 _*Uses separate states files and prefabs for the game objects, as
