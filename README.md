@@ -5,11 +5,15 @@
 - [Phaser][phaser]
 - [Browserify][browserify]
 - [EJS][ejs]
-- [Sass][sass]: scss syntax
+- [Sass][sass]: scss syntax*
+- [Compass][compass]: *
 - [MongoDB][mongo]
+- [Koala][koala]: In order to compile scss & compass locally 
+- [Mongoose][goose]: ODM for mongoDB
 - [ESLint][eslint]: keep your code clean
 - [BrowserSync][browser-sync]: a local web server to test your code
 
+_* Compass & Scss files can be compiled with Koala
 _*Uses separate states files and prefabs for the game objects, as
 [Codevinsky][codevinsky] did in his great [tutorial][codevinsky-tutorial]. 
 
@@ -109,5 +113,8 @@ To list all the available options, you can use ```gulp -h```.
 [node]: http://nodejs.org/
 [phaser]: http://phaser.io/
 [mongo]: https://www.mongodb.org/
+[koala]: http://koala-app.com/
+[goose]: http://mongoosejs.com/
+[compass]: http://compass-style.org/
 [sass]: http://sass-lang.com/
 [slush]: http://slushjs.github.io/
