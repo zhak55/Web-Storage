@@ -2,19 +2,20 @@
 
 # Features
 
-- [Phaser][phaser] - game engine 
-- [Browserify][browserify] - emulate require
-- [EJS][ejs] - server templating 
-- [Sass][sass]: scss syntax*
-- [Compass][compass]: *
-- [MongoDB][mongo] - DB
-- [Koala][koala]: In order to compile scss & compass locally 
-- [Mongoose][goose]: ODM for mongoDB
-- [Express][express]: simplify work with node.js
-- [Socket.io][socket]: real-time engine
-- [Gulp][gulp]: the streaming build system
-- [ESLint][eslint]: keep your code clean
-- [BrowserSync][browser-sync]: a local web server to test your code
+- [Phaser][phaser] - game engine [Client]
+- [jQuery][jquery] - dom [Client]
+- [Browserify][browserify] - emulate require [Gulp/Sh]
+- [EJS][ejs] - server templating [Server]
+- [Sass][sass]: scss syntax* [Server/Local]
+- [Compass][compass]: * [Server/Local]
+- [MongoDB][mongo] - DB [Server]
+- [Koala][koala]: In order to compile scss & compass locally [Local]
+- [Mongoose][goose]: ODM for mongoDB [Server]
+- [Express][express]: simplify work with node.js [Server]
+- [Socket.io][socket]: real-time engine [Server & Client]
+- [Gulp][gulp]: the streaming build system [Server]
+- [ESLint][eslint]: keep your code clean [Server]
+- [BrowserSync][browser-sync]: a local web server to test your code [Server]
 
 _* Compass & Scss files can be compiled with Koala <br>
 _*Uses separate states files and prefabs for the game objects, as
@@ -121,6 +122,7 @@ To list all the available options, you can use ```gulp -h```.
 [compass]: http://compass-style.org/
 [express]: http://expressjs.com/
 [socket]: http://socket.io/
+[jquery]: https://jquery.com/
 [sass]: http://sass-lang.com/
 [gulp]: http://gulpjs.com/
 [slush]: http://slushjs.github.io/
