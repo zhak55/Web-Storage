@@ -4,6 +4,8 @@
 
 - [Phaser][phaser] - game engine [__Client__]
 - [jQuery][jquery] - dom [__Client__]
+- [Backbone][backbone] - to manipulate models
+- [Underscore][underscore] - some logic for models 
 - [Browserify][browserify] - emulate require [__Gulp/Sh__]
 - [EJS][ejs] - server templating [__Server__]
 - [Sass][sass]: scss syntax* [__Server/Local__]
@@ -122,6 +124,8 @@ To list all the available options, you can use ```gulp -h```.
 [compass]: http://compass-style.org/
 [express]: http://expressjs.com/
 [socket]: http://socket.io/
+[underscore]: http://underscorejs.org/
+[backbone]: http://backbonejs.org/
 [jquery]: https://jquery.com/
 [sass]: http://sass-lang.com/
 [gulp]: http://gulpjs.com/
